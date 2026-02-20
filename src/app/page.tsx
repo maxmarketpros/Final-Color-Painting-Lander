@@ -2,6 +2,7 @@ import Script from "next/script";
 import { siteConfig } from "../../site.config";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import PromoBanner from "@/components/PromoBanner";
 import TrustRow from "@/components/TrustRow";
 import ServicesGrid from "@/components/ServicesGrid";
 import ProcessSteps from "@/components/ProcessSteps";
@@ -17,6 +18,7 @@ export default function Home() {
             <Header />
             <main>
                 <Hero />
+                <PromoBanner />
                 <TrustRow />
                 <ServicesGrid />
                 <ProcessSteps />
