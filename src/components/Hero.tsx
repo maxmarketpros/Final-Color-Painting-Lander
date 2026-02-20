@@ -22,9 +22,10 @@ export default function Hero() {
                     src={images.hero}
                     alt={`${business.name} — hero image`}
                     fill
-                    className="object-cover scale-105 animate-[heroZoom_25s_ease-in-out_infinite_alternate]"
+                    sizes="100vw"
+                    className="object-cover scale-[1.02] animate-[heroZoom_25s_ease-in-out_infinite_alternate]"
                     priority
-                    quality={90}
+                    quality={95}
                 />
                 {/* Multi-layer overlay for depth */}
                 <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80" />
