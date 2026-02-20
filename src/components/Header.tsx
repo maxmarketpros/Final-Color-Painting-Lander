@@ -38,9 +38,9 @@ export default function Header() {
                     <Image
                         src={images.logo}
                         alt={business.name}
-                        width={270}
-                        height={72}
-                        className="h-[60px] w-auto"
+                        width={350}
+                        height={94}
+                        className="h-[78px] w-auto -my-2"
                         priority
                     />
                 </a>

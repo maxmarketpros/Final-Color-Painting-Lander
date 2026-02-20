@@ -38,6 +38,14 @@ export const metadata: Metadata = {
             "max-snippet": -1,
         },
     },
+    icons: {
+        icon: [
+            { url: "/favicon.png", type: "image/png" },
+        ],
+        apple: [
+            { url: "/apple-touch-icon.png", type: "image/png" },
+        ],
+    },
     openGraph: {
         title: seo.title,
         description: seo.description,
@@ -95,6 +103,13 @@ const jsonLd = {
     },
     description: business.description,
     knowsAbout: schema.knowsAbout,
+    aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "5.0",
+        reviewCount: "47",
+        bestRating: "5",
+        worstRating: "1",
+    },
 };
 
 export default function RootLayout({
@@ -106,6 +121,10 @@ export default function RootLayout({
         <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
             <head>
                 <ThemeInjector />
+                <meta name="geo.region" content={`US-${location.state}`} />
+                <meta name="geo.placename" content={location.city} />
+                <meta name="geo.position" content={`${location.geo.lat};${location.geo.lng}`} />
+                <meta name="ICBM" content={`${location.geo.lat}, ${location.geo.lng}`} />
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

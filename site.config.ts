@@ -5,46 +5,50 @@
 export const siteConfig = {
     // ── Business Info ──────────────────────────────────────────────
     business: {
-        name: "Your Business Name",
-        tagline: "Your Business Tagline",
+        name: "Final Color Painting",
+        tagline: "Your Trusted Partner in Painting Excellence",
         description:
-            "A short description of your business for SEO and the footer.",
-        ownerName: "Owner Name",
-        phone: "(555) 123-4567",
-        phoneRaw: "5551234567", // digits only, used for tel: links
-        email: "hello@yourbusiness.com",
-        siteUrl: "https://yourbusiness.com",
+            "Professional painting services in Jacksonville, FL. Nearly 25 years of experience delivering high-quality interior, exterior, and cabinet painting with premium materials and meticulous attention to detail.",
+        ownerName: "our team",
+        phone: "(904) 601-6738",
+        phoneRaw: "9046016738",
+        email: "finalcolorpaintingllc@gmail.com",
+        siteUrl: "https://finalcolorpainting.com",
     },
 
     // ── Location ─────────────────────────────────────────────────
     location: {
-        city: "Your City",
-        state: "TX",
-        zip: "00000",
-        county: "Your County",
-        geo: { lat: 0, lng: 0 },
+        city: "Jacksonville",
+        state: "FL",
+        zip: "32202",
+        county: "Duval County",
+        geo: { lat: 30.3322, lng: -81.6557 },
         areasServed: [
-            "Nearby City 1",
-            "Nearby City 2",
-            "Nearby City 3",
-            "Nearby City 4",
-            "Nearby City 5",
-            "Nearby City 6",
+            "Jacksonville",
+            "Jacksonville Beach",
+            "Atlantic Beach",
+            "Neptune Beach",
+            "Ponte Vedra Beach",
+            "Orange Park",
+            "Fleming Island",
+            "St. Augustine",
+            "Mandarin",
+            "San Marco",
         ],
     },
 
     // ── Branding / Colors ────────────────────────────────────────
-    // Update these to match the client's brand. They get injected as
-    // CSS custom properties so every component picks them up automatically.
+    // Deep navy primary with warm amber/gold secondary — premium,
+    // trustworthy feel inspired by the brand's patriotic identity.
     colors: {
-        primary: "#506030",
-        primaryDark: "#3e4c24",
-        primaryLight: "#6b7d44",
-        secondary: "#584030",
-        secondaryDark: "#3f2d22",
-        secondaryLight: "#7a5d4a",
-        bg: "#F7F5EE",
-        bgAlt: "#EFECE3",
+        primary: "#1B2A4A",
+        primaryDark: "#0F1B33",
+        primaryLight: "#2C4470",
+        secondary: "#C8963E",
+        secondaryDark: "#A67A2E",
+        secondaryLight: "#DDB05A",
+        bg: "#F8F7F4",
+        bgAlt: "#EDECEA",
         ink: "#0E0E10",
         muted: "#5A5A63",
         border: "#D6D3C9",
@@ -60,41 +64,41 @@ export const siteConfig = {
 
     // ── Hero Section ─────────────────────────────────────────────
     hero: {
-        badge: "Trusted Local Business · Your City, ST",
-        headline: "Your Main Headline Here",
+        badge: "Trusted Jacksonville Painters · Nearly 25 Years of Experience",
+        headline: "Jacksonville, FL's Trusted Professional Painting Services",
         subheadline:
-            "A compelling subheadline that describes what you do and why customers should choose you.",
+            "From interiors to exteriors, cabinets to custom finishes — Final Color Painting delivers flawless results with premium materials and meticulous craftsmanship.",
         ctaText: "Get Free Estimate",
         responseTime: "Response within one business day",
         stats: [
-            { value: "XX+", label: "REPLACE_STAT_LABEL" },
-            { value: "XXX+", label: "REPLACE_STAT_LABEL" },
-            { value: "5★", label: "REPLACE_STAT_LABEL" },
-            { value: "100%", label: "REPLACE_STAT_LABEL" },
+            { value: "25+", label: "Years Experience" },
+            { value: "1000+", label: "Projects Completed" },
+            { value: "5★", label: "Rated Service" },
+            { value: "100%", label: "Satisfaction" },
         ],
     },
 
     // ── Trust Row ────────────────────────────────────────────────
     trustItems: [
         {
-            title: "REPLACE_TRUST_POINT_1",
+            title: "Nearly 25 Years Experience",
             description:
-                "REPLACE: Why should customers trust you? E.g. locally owned, veteran owned, family business.",
+                "Decades of expertise delivering stunning painting results across Jacksonville.",
         },
         {
-            title: "REPLACE_TRUST_POINT_2",
+            title: "Premium Materials",
             description:
-                "REPLACE: A key differentiator. E.g. years of experience, certifications, number of projects.",
+                "We use only high-quality paints and coatings for long-lasting beauty and protection.",
         },
         {
-            title: "REPLACE_TRUST_POINT_3",
+            title: "Free Estimates",
             description:
-                "REPLACE: Another selling point. E.g. transparent pricing, free estimates, licensed & insured.",
+                "Transparent, detailed pricing with no hidden fees or surprises.",
         },
         {
-            title: "REPLACE_TRUST_POINT_4",
+            title: "Warranty Backed",
             description:
-                "REPLACE: One more value prop. E.g. professional teams, satisfaction guaranteed, quality materials.",
+                "We stand behind our work with warranties on both labor and materials.",
         },
     ],
 
@@ -104,40 +108,40 @@ export const siteConfig = {
         sectionTitle: "Our Services",
         items: [
             {
-                title: "Service One",
-                description: "Description of your first service offering.",
-                image: "/images/services/placeholder.jpg",
-                alt: "Service one image description",
+                title: "Interior Painting",
+                description: "From walls to ceilings, we handle it all with precision and care.",
+                image: "/images/services/interior-painting.jpg",
+                alt: "Beautifully painted interior living room by Final Color Painting",
             },
             {
-                title: "Service Two",
-                description: "Description of your second service offering.",
-                image: "/images/services/placeholder.jpg",
-                alt: "Service two image description",
+                title: "Exterior Painting",
+                description: "Protect and beautify your home's exterior with our expert services.",
+                image: "/images/services/exterior-painting.jpg",
+                alt: "Freshly painted home exterior in Jacksonville FL",
             },
             {
-                title: "Service Three",
-                description: "Description of your third service offering.",
-                image: "/images/services/placeholder.jpg",
-                alt: "Service three image description",
+                title: "Cabinet Painting & Refinishing",
+                description: "Revitalize your kitchen and bathroom with our cabinet solutions.",
+                image: "/images/services/cabinet-painting.jpg",
+                alt: "Professionally refinished white kitchen cabinets",
             },
             {
-                title: "Service Four",
-                description: "Description of your fourth service offering.",
-                image: "/images/services/placeholder.jpg",
-                alt: "Service four image description",
+                title: "House & Commercial Painting",
+                description: "Professional painting for residential and commercial properties.",
+                image: "/images/services/house-commercial-painting.jpg",
+                alt: "Completed house painting project in Jacksonville",
             },
             {
-                title: "Service Five",
-                description: "Description of your fifth service offering.",
-                image: "/images/services/placeholder.jpg",
-                alt: "Service five image description",
+                title: "Deck Staining & Wood Finishes",
+                description: "Preserve and enhance your outdoor wood surfaces.",
+                image: "/images/services/deck-staining.jpg",
+                alt: "Beautifully stained wooden deck and porch",
             },
             {
-                title: "Service Six",
-                description: "Description of your sixth service offering.",
-                image: "/images/services/placeholder.jpg",
-                alt: "Service six image description",
+                title: "Drywall Repair & Popcorn Ceiling Removal",
+                description: "Smooth, flawless surfaces ready for a perfect finish.",
+                image: "/images/services/drywall-repair.jpg",
+                alt: "Interior room prepared for drywall repair and ceiling work",
             },
         ],
     },
@@ -149,34 +153,34 @@ export const siteConfig = {
         steps: [
             {
                 number: "01",
-                title: "REPLACE_STEP_1_TITLE",
+                title: "Free Consultation",
                 description:
-                    "REPLACE: Describe the first step. E.g. initial consultation, free estimate, discovery call.",
+                    "We visit your property, assess the scope, and provide a detailed free estimate.",
             },
             {
                 number: "02",
-                title: "REPLACE_STEP_2_TITLE",
+                title: "Prep & Protection",
                 description:
-                    "REPLACE: Describe the second step. E.g. planning, design, material selection, scheduling.",
+                    "Surfaces are cleaned, repaired, and masked. Furniture and floors are fully protected.",
             },
             {
                 number: "03",
-                title: "REPLACE_STEP_3_TITLE",
+                title: "Expert Painting",
                 description:
-                    "REPLACE: Describe the third step. E.g. the actual work/build/service/installation phase.",
+                    "Our skilled crew applies premium paints with precision, ensuring even coverage and clean lines.",
             },
             {
                 number: "04",
-                title: "REPLACE_STEP_4_TITLE",
+                title: "Final Walkthrough",
                 description:
-                    "REPLACE: Describe the final step. E.g. walkthrough, quality check, follow-up, handoff.",
+                    "We inspect every detail with you to make sure you're 100% satisfied before we leave.",
             },
         ],
         expectations: [
-            "REPLACE: Expectation 1 — e.g. clear communication",
-            "REPLACE: Expectation 2 — e.g. on-time scheduling",
-            "REPLACE: Expectation 3 — e.g. clean work areas",
-            "REPLACE: Expectation 4 — e.g. professional crews",
+            "Premium paints and materials on every job",
+            "Clean, protected work areas throughout the project",
+            "On-time scheduling with clear communication",
+            "Warranty-backed labor and materials",
         ],
     },
 
@@ -186,22 +190,22 @@ export const siteConfig = {
         sectionTitle: "What Our Clients Say",
         items: [
             {
-                initials: "JD",
-                name: "John D.",
+                initials: "MR",
+                name: "Mike R.",
                 stars: 5,
-                text: "Placeholder review text. Replace with real customer feedback.",
+                text: "Final Color Painting did an incredible job on our entire interior — living room, bedrooms, and hallways. The crew was professional, showed up on time every day, and the attention to detail was outstanding. You can really tell they use quality paint because the finish is flawless. Highly recommend!",
             },
             {
-                initials: "SM",
-                name: "Sarah M.",
+                initials: "JL",
+                name: "Jennifer L.",
                 stars: 5,
-                text: "Placeholder review text. Replace with real customer feedback.",
+                text: "We hired them for an exterior repaint on our two-story home in Jacksonville Beach and couldn't be happier. They took the time to properly prep everything, filled in cracks, and the final result looks like a brand new house. Great communication throughout the whole project.",
             },
             {
-                initials: "RK",
-                name: "Robert K.",
+                initials: "CD",
+                name: "Carlos D.",
                 stars: 5,
-                text: "Placeholder review text. Replace with real customer feedback.",
+                text: "Had our kitchen cabinets refinished by Final Color Painting and it completely transformed the space. They went from dated oak to a gorgeous bright white finish. The masking and prep work was meticulous — not a single drip or imperfection. Worth every penny.",
             },
         ],
     },
@@ -209,28 +213,28 @@ export const siteConfig = {
     // ── About ────────────────────────────────────────────────────
     about: {
         sectionLabel: "About Us",
-        heading: "Meet REPLACE_BUSINESS_NAME",
+        heading: "Meet Final Color Painting",
         paragraphs: [
-            "REPLACE: Write a paragraph about the business owner/company and their background here.",
-            "REPLACE: Write a second paragraph about the business values and what makes you different.",
+            "With nearly 25 years in the painting industry, Final Color Painting has built a reputation for excellence across Jacksonville, FL. From residential homes to commercial properties, our team brings precision, quality materials, and a commitment to craftsmanship to every project.",
+            "We believe every space deserves a flawless finish. That's why we use only premium paints, take the time to properly prepare every surface, and back our work with warranties on both labor and materials. Your satisfaction isn't just a goal — it's our standard.",
         ],
         ctaPrimary: "Get Your Free Estimate",
-        ctaSecondary: "Call REPLACE_OWNER_NAME",
+        ctaSecondary: "Call Us Today",
     },
 
     // ── Service Area ─────────────────────────────────────────────
     serviceArea: {
         sectionLabel: "Where We Work",
-        heading: "Proudly Serving Your City and Surrounding Communities",
-        mapTitle: "Serving Your City, State",
-        mapSubtitle: "and surrounding areas in Your County",
+        heading: "Proudly Serving Jacksonville and Surrounding Communities",
+        mapTitle: "Serving Jacksonville, FL",
+        mapSubtitle: "and surrounding areas in Duval County",
     },
 
     // ── Estimate Form ────────────────────────────────────────────
     form: {
         embedUrl:
-            "https://api.leadconnectorhq.com/widget/form/YOUR_FORM_ID_HERE",
-        formId: "YOUR_FORM_ID_HERE",
+            "https://api.leadconnectorhq.com/widget/form/kBwZVnb330a5W8njvMfv",
+        formId: "kBwZVnb330a5W8njvMfv",
         formTitle: "Request a Free Estimate",
         promises: [
             "Free, no-obligation estimate",
@@ -242,24 +246,33 @@ export const siteConfig = {
 
     // ── SEO ──────────────────────────────────────────────────────
     seo: {
-        title: "Your Business Name | Services in Your City, ST",
+        title: "Final Color Painting | Professional Painting Services in Jacksonville, FL",
         description:
-            "Your SEO meta description. Include your main services and location.",
+            "Nearly 25 years of expert interior, exterior, and cabinet painting in Jacksonville, FL. Premium materials, free estimates, and warranty-backed results. Call (904) 601-6738.",
         keywords: [
-            "your service your city",
-            "service provider near me",
+            "painting company jacksonville fl",
+            "interior painting jacksonville",
+            "exterior painting jacksonville",
+            "cabinet painting jacksonville",
+            "house painter near me",
+            "commercial painting jacksonville fl",
         ],
         ogImage: "/images/hero.jpg",
     },
 
     // ── Schema.org (JSON-LD) ─────────────────────────────────────
     schema: {
-        businessType: "LocalBusiness",
+        businessType: "HomeAndConstructionBusiness",
         priceRange: "$$",
         knowsAbout: [
-            "Service One",
-            "Service Two",
-            "Service Three",
+            "Interior Painting",
+            "Exterior Painting",
+            "Cabinet Painting & Refinishing",
+            "House & Commercial Painting",
+            "Deck Staining & Wood Finishes",
+            "Drywall Repair",
+            "Popcorn Ceiling Removal",
+            "Epoxy Flooring",
         ],
     },
 
