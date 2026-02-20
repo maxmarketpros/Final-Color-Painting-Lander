@@ -67,34 +67,34 @@ export const siteConfig = {
         ctaText: "Get Free Estimate",
         responseTime: "Response within one business day",
         stats: [
-            { value: "10+", label: "Years Experience" },
-            { value: "500+", label: "Projects Completed" },
-            { value: "5★", label: "Rated Service" },
-            { value: "100%", label: "Satisfaction" },
+            { value: "XX+", label: "REPLACE_STAT_LABEL" },
+            { value: "XXX+", label: "REPLACE_STAT_LABEL" },
+            { value: "5★", label: "REPLACE_STAT_LABEL" },
+            { value: "100%", label: "REPLACE_STAT_LABEL" },
         ],
     },
 
     // ── Trust Row ────────────────────────────────────────────────
     trustItems: [
         {
-            title: "Locally Owned",
+            title: "REPLACE_TRUST_POINT_1",
             description:
-                "Founded by a local professional with a commitment to quality craftsmanship.",
+                "REPLACE: Why should customers trust you? E.g. locally owned, veteran owned, family business.",
         },
         {
-            title: "10+ Years Experience",
+            title: "REPLACE_TRUST_POINT_2",
             description:
-                "A decade of expertise delivering top-quality results for our clients.",
+                "REPLACE: A key differentiator. E.g. years of experience, certifications, number of projects.",
         },
         {
-            title: "Transparent Pricing",
+            title: "REPLACE_TRUST_POINT_3",
             description:
-                "Detailed estimates with every line item broken down — no surprises, no hidden costs.",
+                "REPLACE: Another selling point. E.g. transparent pricing, free estimates, licensed & insured.",
         },
         {
-            title: "Professional Teams",
+            title: "REPLACE_TRUST_POINT_4",
             description:
-                "Job sites left clean at the end of each day. Courteous teams you can trust.",
+                "REPLACE: One more value prop. E.g. professional teams, satisfaction guaranteed, quality materials.",
         },
     ],
 
@@ -149,34 +149,34 @@ export const siteConfig = {
         steps: [
             {
                 number: "01",
-                title: "Free Consultation",
+                title: "REPLACE_STEP_1_TITLE",
                 description:
-                    "We visit your property, discuss your vision, and deliver a detailed estimate.",
+                    "REPLACE: Describe the first step. E.g. initial consultation, free estimate, discovery call.",
             },
             {
                 number: "02",
-                title: "Planning & Design",
+                title: "REPLACE_STEP_2_TITLE",
                 description:
-                    "Collaborate on layout, materials, and finishes to match your style and budget.",
+                    "REPLACE: Describe the second step. E.g. planning, design, material selection, scheduling.",
             },
             {
                 number: "03",
-                title: "Build Phase",
+                title: "REPLACE_STEP_3_TITLE",
                 description:
-                    "Our crew handles the build with clean daily sites, clear timelines, and regular updates.",
+                    "REPLACE: Describe the third step. E.g. the actual work/build/service/installation phase.",
             },
             {
                 number: "04",
-                title: "Final Walkthrough",
+                title: "REPLACE_STEP_4_TITLE",
                 description:
-                    "We walk the finished project with you to make sure every detail meets your expectations.",
+                    "REPLACE: Describe the final step. E.g. walkthrough, quality check, follow-up, handoff.",
             },
         ],
         expectations: [
-            "Clear, consistent communication",
-            "Transparent scheduling and timelines",
-            "Clean job sites at end of each day",
-            "Respectful, professional crews",
+            "REPLACE: Expectation 1 — e.g. clear communication",
+            "REPLACE: Expectation 2 — e.g. on-time scheduling",
+            "REPLACE: Expectation 3 — e.g. clean work areas",
+            "REPLACE: Expectation 4 — e.g. professional crews",
         ],
     },
 
@@ -209,13 +209,13 @@ export const siteConfig = {
     // ── About ────────────────────────────────────────────────────
     about: {
         sectionLabel: "About Us",
-        heading: "Meet the Owner",
+        heading: "Meet REPLACE_BUSINESS_NAME",
         paragraphs: [
-            "Write a paragraph about the business owner and their background here.",
-            "Write a second paragraph about the business values and what makes you different.",
+            "REPLACE: Write a paragraph about the business owner/company and their background here.",
+            "REPLACE: Write a second paragraph about the business values and what makes you different.",
         ],
         ctaPrimary: "Get Your Free Estimate",
-        ctaSecondary: "Call Owner Name",
+        ctaSecondary: "Call REPLACE_OWNER_NAME",
     },
 
     // ── Service Area ─────────────────────────────────────────────
